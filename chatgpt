@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluciones S.A.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SOLUCIONES S.A.</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Buscar producto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>+50 AÑOS EN EL MERCADO</h1>
+        <p>Especialistas en comercialización de productos y servicios para la medición, control y regulación de agua potable y residual.</p>
+        <button>Cotiza Ahora</button>
+    </section>
+
+    <section class="categories">
+        <h2>Categorías</h2>
+        <div class="category-grid">
+            <div class="category-item">Micro y Macro Medición</div>
+            <div class="category-item">Tuberías en PVC</div>
+            <div class="category-item">Geomembranas</div>
+            <div class="category-item">Válvulas y Accesorios</div>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Productos Destacados</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="./images/product1.jpg" alt="Producto 1">
+                <h3>Medidor de Agua</h3>
+                <p>$90.000</p>
+                <button>Añadir al carrito</button>
+            </div>
+            <div class="product-item">
+                <img src="./images/product2.jpg" alt="Producto 2">
+                <h3>Registro Antifraude</h3>
+                <p>$120.000</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SOLUCIONES S.A. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
